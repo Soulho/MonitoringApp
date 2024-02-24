@@ -78,11 +78,11 @@ WSGI_APPLICATION = 'monitoring.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'name_db',
-        'USER': 'user_db',
-        'PASSWORD': 'user_password',
-        'HOST': 'localhost',
-        'PORT': '',
+        'NAME': 'basetaller',
+        'USER': 'daniel',
+        'PASSWORD': 'Soulho#2018',
+        'HOST': '10.128.0.3',
+        'PORT': '5432',
     }
 }
 
